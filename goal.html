@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>목표 - 박시현의 홈페이지</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f0f0f0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        header {
+            background-color: #000000; /* 상단바 색상 검정 */
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            width: 100%;
+            position: fixed;
+            top: 0;
+        }
+        .container {
+            margin-top: 80px; /* 상단바 높이 만큼 여백 추가 */
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            max-width: 1200px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+        }
+        .text-container {
+            flex: 1;
+            padding: 20px;
+        }
+        .text-container h2 {
+            font-size: 28px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .text-container p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #555;
+            margin-bottom: 15px; /* 각 목표 사이의 간격 */
+        }
+        .image-container {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .image-container img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>나의 목표</header>
+    <div class="container">
+        <div class="text-container">
+            <h2>내 목표</h2>
+            <p>1. 무사히 졸업하기.</p>
+            <p>2. 돈 벌어서 유럽 여행 가기.</p>
+            <p>3. 운전 면허 따서 전국 일주하기.</p>
+            <p>4. 재밌는 대학생활 보내기.</p>
+            <p>5. 성적 장학금 받아보기</p>
+            <p>6. 자취하기</p>
+            <p>7. ★건물주★</p>
+            <!-- 추가 목표를 여기에 작성하세요. -->
+        </div>
+        <div class="image-container">
+            <img src="다운로드.jpg" alt="레츠끼끼"> <!-- 이미지 파일 경로 변경 -->
+        </div>
+    </div>
+    <div class="button-container">
+        <button onclick="location.href='next.html'">이전 페이지로 이동</button>
+    </div>
+    </div>
+</body>
+</html>

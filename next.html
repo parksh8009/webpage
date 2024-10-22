@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>박시현의 홈페이지</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f0f0f0;
+            background-image: url('https://example.com/your-background-image.jpg'); /* 배경 이미지 추가 */
+            background-size: cover; /* 배경 이미지 크기 조정 */
+            background-position: center; /* 배경 이미지 위치 조정 */
+            color: #333; /* 기본 글자 색상 */
+        }
+        header {
+            background-color: #000000; /* 상단바 색상 검정 */
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 28px; /* 상단바 글자 크기 증가 */
+            font-weight: bold;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* 그림자 효과 추가 */
+        }
+        .content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+            text-align: center;
+        }
+        .text-button {
+            margin: 20px;
+        }
+        .text-button h2 {
+            font-size: 36px; /* 제목 글자 크기 증가 */
+            font-weight: bold;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* 제목에 그림자 효과 추가 */
+        }
+        .text-button button {
+            padding: 15px 30px;
+            font-size: 20px; /* 버튼 글자 크기 증가 */
+            background-color: #000000;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+            transition: background-color 0.3s, transform 0.2s; /* 부드러운 효과 추가 */
+        }
+        .text-button button:hover {
+            background-color: #333333;
+            transform: scale(1.05); /* 버튼 확대 효과 추가 */
+        }
+    </style>
+</head>
+<body>
+    <header>Park Si-hyeon's Homepage</header>
+    <div class="content">
+        <div class="text-button">
+            <h2>시작 화면으로</h2>
+            <button onclick="window.location.href='index.html'">click</button>
+        </div>
+        <div class="text-button">
+            <h2>소개</h2>
+            <button onclick="window.location.href='intro.html'">click</button>
+        </div>
+        <div class="text-button">
+            <h2>목표</h2>
+            <button onclick="window.location.href='goal.html'">click</button>
+    
+</body>
+</html>

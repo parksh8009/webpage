@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            position: relative;
+        }
+        .welcome-text {
+            font-size: 15vw;
+            margin: 0;
+            background: linear-gradient(45deg, #000000, #777777);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .enter-button {
+            margin-top: 30px;
+            padding: 20px 40px;
+            font-size: 24px;
+            background-color: #000000;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .enter-button:hover {
+            background-color: #333333;
+        }
+        .top-right-text {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-size: 18px;
+            color: #555555;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-right-text">202410081 박시현</div>
+    <h1 class="welcome-text">Welcome</h1>
+    <button class="enter-button" onclick="window.location.href='next.html'">Enter</button>
+</body>
+</html>
